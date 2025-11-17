@@ -365,17 +365,23 @@ video.horizontal {
 
 /* contact */
 
- .contact__button {
+ .contact {
+    display: flex;
+    justify-content: center;
+}
 
-opacity: 60%;
+ .contact__button {
+    opacity: 60%;
     display: inline-flex;
     align-items: center;
-    gap: 20px;              /* расстояние между текстом и стрелкой */
-    
+    gap: 20px;
+
     padding: 12px 30px;
-   margin-top: 110px;
-margin: 110px auto 0;
-    background-color: #e63946; 
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #e63946;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
@@ -383,6 +389,7 @@ margin: 110px auto 0;
     transition: 0.3s ease;
     font-weight: 400;
 }
+
 
 .contact__button:hover {
     background-color: #ff4f5e;
@@ -417,3 +424,4 @@ align-items: center;
     margin-bottom: 30px;
 
 }
+
