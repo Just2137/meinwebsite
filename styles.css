@@ -374,7 +374,7 @@ opacity: 60%;
     
     padding: 12px 30px;
    margin-top: 110px;
-margin-left: 617px;
+margin: 110px auto 0;
     background-color: #e63946; 
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -415,4 +415,5 @@ align-items: center;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }
